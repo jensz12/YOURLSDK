@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.7\n"
 "POT-Creation-Date: 2015-12-10 21:32+0100\n"
-"PO-Revision-Date: 2015-12-10 21:32+0100\n"
+"PO-Revision-Date: 2015-12-20 18:58+0100\n"
 "Last-Translator: Jens Møller <jens@jensz12.com>\n"
 "Language-Team: \n"
 "Language: da_DK\n"
@@ -119,95 +119,95 @@ msgstr "Bedste dag"
 #, php-format
 msgid "<strong>%1$s</strong> hit on %2$s"
 msgid_plural "<strong>%1$s</strong> hits on %2$s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<strong>%1$s </strong> kliks %2$s"
+msgstr[1] "<strong> %1$s </strong> kliks %2$s"
 
 #: yourls-infos.php:381 yourls-infos.php:443
 msgid "Click for more details"
-msgstr ""
+msgstr "Klik for detaljer"
 
 #: yourls-infos.php:387 yourls-infos.php:390
 #, php-format
 msgid "Year %s"
-msgstr ""
+msgstr "﻿År %s"
 
 #: yourls-infos.php:409 yourls-infos.php:447
 #, php-format
 msgid "1 hit"
 msgid_plural "%s hits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 klik"
+msgstr[1] "%s kliks"
 
 #: yourls-infos.php:426
 msgid "No traffic yet. Get some clicks first!"
-msgstr ""
+msgstr "Ingen trafik endnu. Få nogle klik først!"
 
 #: yourls-infos.php:441
 msgid "Top 5 countries"
-msgstr ""
+msgstr "Top 5 lande"
 
 #: yourls-infos.php:454
 msgid "Overall traffic"
-msgstr ""
+msgstr "Samlet trafik"
 
 #: yourls-infos.php:463
 msgid "No country data."
-msgstr ""
+msgstr "Ingen data om lande"
 
 #: yourls-infos.php:478
 msgid "Referrer shares"
-msgstr ""
+msgstr "Henvisnings delinger"
 
 #: yourls-infos.php:481
 msgid "Others"
-msgstr ""
+msgstr "Andre"
 
 #: yourls-infos.php:485 yourls-infos.php:518
 msgid "Referrers"
-msgstr ""
+msgstr "Henviser"
 
 #: yourls-infos.php:492 yourls-infos.php:502
 msgid "(details)"
-msgstr ""
+msgstr "(detaljer)"
 
 #: yourls-infos.php:502
 msgid "Various:"
-msgstr ""
+msgstr "Diverse:"
 
 #: yourls-infos.php:516
 msgid "Direct vs Referrer Traffic"
-msgstr ""
+msgstr "Direkte vs henvist trafik"
 
 #: yourls-infos.php:518
 msgid "Direct"
-msgstr ""
+msgstr "Direkte"
 
 #: yourls-infos.php:520
 msgid "Direct traffic:"
-msgstr ""
+msgstr "Direkte trafik:"
 
 #: yourls-infos.php:520 yourls-infos.php:521
 #, php-format
 msgid "<strong>%s</strong> hit"
 msgid_plural "<strong>%s</strong> hits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<strong>%s</strong> klik"
+msgstr[1] "<strong>%s</strong> kliks"
 
 #: yourls-infos.php:521
 msgid "Referrer traffic:"
-msgstr ""
+msgstr "Henvist trafik:"
 
 #: yourls-infos.php:530
 msgid "No referrer data."
-msgstr ""
+msgstr "Ingen henvisnings data"
 
 #: yourls-infos.php:541
 msgid "Short link"
-msgstr ""
+msgstr "Kort URL"
 
 #: yourls-infos.php:541 includes/functions-html.php:359
 msgid "Quick Share"
-msgstr ""
+msgstr "Del hurtigt"
 
 #: admin/index.php:13 admin/index.php:38 admin/index.php:97
 #: includes/functions-html.php:210 includes/functions-html.php:222
@@ -226,7 +226,7 @@ msgstr "IP adresse"
 #: admin/index.php:50
 #, php-format
 msgid "Searching for <strong>%1$s</strong> in <strong>%2$s</strong>."
-msgstr ""
+msgstr "Søger efter <strong>%1$s</strong> i <strong>%2$s</strong>."
 
 #: admin/index.php:101 includes/functions-html.php:223
 #: includes/functions-html.php:628
@@ -241,11 +241,11 @@ msgstr "Klik"
 #: admin/index.php:187 admin/index.php:198 admin/index.php:209
 #, php-format
 msgid "Short URL created, but could not redirect to %s !"
-msgstr ""
+msgstr "Kort URL oprettet, men den kunne ikke omdirigere til %s !"
 
 #: admin/index.php:219
 msgid "Unknown \"Share\" bookmarklet"
-msgstr ""
+msgstr "Ukendt \"Del\" bogmærke"
 
 #: admin/index.php:272
 #, php-format
@@ -253,13 +253,15 @@ msgid ""
 "Display <strong>%1$s</strong> to <strong class=\"increment\">%2$s</strong> "
 "of <strong class=\"increment\">%3$s</strong> URLs"
 msgstr ""
+"Viser <strong>%1$s</strong> til <strong class=\"increment\">%2$s</strong> af "
+"i alt <strong class=\"increment\">%3$s</strong> links"
 
 #: admin/index.php:274
 #, php-format
 msgid "counting <strong>1</strong> click"
 msgid_plural "counting <strong>%s</strong> clicks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "tæller <strong>1</strong> klik"
+msgstr[1] "tæller <strong>%s</strong> kliks"
 
 #: admin/index.php:277
 #, php-format
@@ -267,6 +269,8 @@ msgid ""
 "Overall, tracking <strong class=\"increment\">%1$s</strong> links, <strong>"
 "%2$s</strong> clicks, and counting!"
 msgstr ""
+"I alt er der <strong class=\"increment\"> %1$s</strong> links med <strong>"
+"%2$s</strong> kliks"
 
 #: admin/index.php:337
 msgid "No URL"
@@ -275,60 +279,62 @@ msgstr "Ingen URL"
 #: admin/install.php:13 admin/install.php:18
 #, php-format
 msgid "%s version is too old. Ask your server admin for an upgrade."
-msgstr ""
+msgstr "%s version er for gammel. Spørg din server admin efter en opgradering."
 
 #: admin/install.php:24
 msgid "YOURLS already installed."
-msgstr ""
+msgstr "YOURLS er allerede installeret"
 
 #: admin/install.php:35
 msgid "File <tt>.htaccess</tt> successfully created/updated."
-msgstr ""
+msgstr "Filen <tt>.htaccess</tt> blev oprettet/opdateret"
 
 #: admin/install.php:37
 msgid ""
 "Could not write file <tt>.htaccess</tt> in YOURLS root directory. You will "
 "have to do it manually. See <a href=\"http://yourls.org/htaccess\">how</a>."
 msgstr ""
+"Kunne ikke oprette <tt>.htaccess</tt> i YOURLS rod mappen. Du skal selv "
+"oprette den. Se hvordan <a href=\"http://yourls.org/htaccess\">her</a>."
 
 #: admin/install.php:50 admin/install.php:71
 msgid "Install YOURLS"
-msgstr ""
+msgstr "Installer YOURLS"
 
 #: admin/install.php:74
 msgid "YOURLS Administration Page"
-msgstr ""
+msgstr "YOURLS administrations side"
 
 #: admin/plugins.php:38
 msgid "Unsupported action"
-msgstr ""
+msgstr "Ikke understøttet handling"
 
 #: admin/plugins.php:42
 msgid "No plugin specified, or not a valid plugin"
-msgstr ""
+msgstr "Ingen udvidelse blev specificeret, eller også er det ugyldigt"
 
 #: admin/plugins.php:51
 msgid "Plugin has been activated"
-msgstr ""
+msgstr "Udvidelsen blev aktiveret"
 
 #: admin/plugins.php:53
 msgid "Plugin has been deactivated"
-msgstr ""
+msgstr "Udvidelsen blev deaktiveret"
 
 #: admin/plugins.php:58 includes/functions-html.php:745
 msgid "Manage Plugins"
-msgstr ""
+msgstr "Administrer udvidelser "
 
 #: admin/plugins.php:63
 msgid "Plugins"
-msgstr ""
+msgstr "Udvidelser"
 
 #: admin/plugins.php:70
 #, php-format
 msgid "%s plugin"
 msgid_plural "%s plugins"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s udvidelse"
+msgstr[1] "%s udvidelser"
 
 #. //translators: "you have '3 plugins' installed and '1' activated"
 #: admin/plugins.php:74
@@ -337,14 +343,16 @@ msgid ""
 "You currently have <strong>%1$s</strong> installed, and <strong>%2$s</"
 "strong> activated"
 msgstr ""
+"Du har i øjeblikket <strong>%1$s</strong> installeret og <strong>%2$s</"
+"strong> aktiveret"
 
 #: admin/plugins.php:79
 msgid "Plugin Name"
-msgstr ""
+msgstr "Navn"
 
 #: admin/plugins.php:80
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: admin/plugins.php:81
 msgid "Description"
@@ -356,24 +364,24 @@ msgstr "Forfatter"
 
 #: admin/plugins.php:83
 msgid "Action"
-msgstr ""
+msgstr "Handling"
 
 #: admin/plugins.php:118
 msgid "Deactivate"
-msgstr ""
+msgstr "Deaktiver"
 
 #: admin/plugins.php:122
 msgid "Activate"
-msgstr ""
+msgstr "Aktiver"
 
 #: admin/plugins.php:133
 #, php-format
 msgid "plugin file location: %s"
-msgstr ""
+msgstr "udvidelsesfilens lokation: %s"
 
 #: admin/plugins.php:150
 msgid "Toggle active/inactive plugins"
-msgstr ""
+msgstr "Skift aktive/inaktive udvidelser"
 
 #: admin/plugins.php:157
 msgid ""
@@ -381,46 +389,58 @@ msgid ""
 "YOURLS or access this page, simply rename or delete its directory, or rename "
 "the plugin file to something different than <code>plugin.php</code>."
 msgstr ""
+"Hvis noget skulle gå galt, efter du har aktiveret en udvidelse, og du ikke "
+"kan bruge YOURLS, eller har adgang til denne side. Så skal du enten omdøbe "
+"eller slette mappen, eller omdøbe udvidelses filen, til noget andet end "
+"<code>plugin.php</code>."
 
 #: admin/plugins.php:159
 msgid "More plugins"
-msgstr ""
+msgstr "Flere udvidelser"
 
 #: admin/plugins.php:161
 msgid ""
 "For more plugins, head to the official <a href=\"http://yourls.org/pluginlist"
 "\">Plugin list</a>."
 msgstr ""
+"Du kan finde flere udvidelser i den officielle <a href=\"http://yourls.org/"
+"pluginlist\">udvidelses liste</a>."
 
 #: admin/tools.php:6
 msgid "Cool YOURLS Tools"
-msgstr ""
+msgstr "Seje YOURLS værktøjer"
 
 #: admin/tools.php:13
 msgid "Bookmarklets"
-msgstr ""
+msgstr "Bogmærker"
 
 #: admin/tools.php:15
 msgid ""
 "YOURLS comes with handy <span>bookmarklets</span> for easier link shortening "
 "and sharing."
 msgstr ""
+"YOURLS kommer med smarte <span>bogmærker</span> for nemmere at forkorte "
+"links og dele den."
 
 #: admin/tools.php:17
 msgid "Standard or Instant, Simple or Custom"
-msgstr ""
+msgstr "Standard eller øjeblikkelig, Simpel eller brugerdefineret."
 
 #: admin/tools.php:20
 msgid ""
 "The <span>Standard Bookmarklets</span> will take you to a page where you can "
 "easily edit or delete your brand new short URL."
 msgstr ""
+"<span>Standard bogmærket</span> tager dig til en side, hvor du nemt kan "
+"redigere eller slette, din nyligt oprette korte URL."
 
 #: admin/tools.php:22
 msgid ""
 "The <span>Instant Bookmarklets</span> will pop the short URL without leaving "
 "the page you are viewing."
 msgstr ""
+"<span>Øjeblikkelig bogmærket</span> laver en kort URL uden at du forlader "
+"siden du er på."
 
 #: admin/tools.php:24
 msgid ""
@@ -443,7 +463,7 @@ msgstr ""
 
 #: admin/tools.php:33
 msgid "The Bookmarklets"
-msgstr ""
+msgstr "Bogmærkerne"
 
 #: admin/tools.php:35 admin/tools.php:62
 msgid "Click and drag links to your toolbar (or right-click and bookmark it)"
@@ -451,11 +471,11 @@ msgstr ""
 
 #: admin/tools.php:41
 msgid "Standard (new page)"
-msgstr ""
+msgstr "Standard (ny side)"
 
 #: admin/tools.php:42
 msgid "Instant (popup)"
-msgstr ""
+msgstr "Øjeblikkelig (popup)"
 
 #: admin/tools.php:47
 msgid "Simple"
@@ -464,7 +484,7 @@ msgstr "Simpel"
 #: admin/tools.php:48 admin/tools.php:49 admin/tools.php:53 admin/tools.php:54
 #: admin/tools.php:68 admin/tools.php:70 admin/tools.php:72
 msgid "Drag to your toolbar!"
-msgstr ""
+msgstr "Træk til din værktøjslinje"
 
 #: admin/tools.php:48
 msgid "Shorten"
@@ -476,43 +496,44 @@ msgstr "Forkort"
 
 #: admin/tools.php:52
 msgid "Custom Keyword"
-msgstr ""
+msgstr "Valgfrit nøgleord"
 
 #: admin/tools.php:53
 msgid "Custom shorten"
-msgstr ""
+msgstr "Valgfri forkortelse"
 
 #: admin/tools.php:54
 msgid "Instant Custom Shorten"
-msgstr ""
+msgstr "Øjeblikkelig brugerdefineret forkortelse"
 
 #: admin/tools.php:59
 msgid "Social Bookmarklets"
-msgstr ""
+msgstr "Sociale bogmærker"
 
 #: admin/tools.php:61
 msgid "Create a short URL and share it on social networks, all in one click!"
 msgstr ""
+"Opret en kort URL og del den på sociale netværk, alt sammen i et enkelt klik!"
 
 #: admin/tools.php:64
 msgid "Shorten and share:"
-msgstr ""
+msgstr "Forkort og del:"
 
 #: admin/tools.php:68
 msgid "YOURLS &amp; Facebook"
-msgstr ""
+msgstr "YOURLS &amp; Facebook"
 
 #: admin/tools.php:70
 msgid "YOURLS &amp; Twitter"
-msgstr ""
+msgstr "YOURLS &amp; Twitter"
 
 #: admin/tools.php:72
 msgid "YOURLS &amp; Tumblr"
-msgstr ""
+msgstr "YOURLS &amp; Tumblr"
 
 #: admin/tools.php:80
 msgid "Prefix-n-Shorten"
-msgstr ""
+msgstr "Præfiks-n-forkort"
 
 #: admin/tools.php:82
 #, php-format
@@ -525,15 +546,15 @@ msgstr ""
 #: admin/tools.php:85
 msgid ""
 "Note: this will probably not work if your web server is running on Windows"
-msgstr ""
+msgstr "Note: dette vil nok ikke virke hvis din webservere køre Windows"
 
 #: admin/tools.php:87
 msgid " (which seems to be the case here)"
-msgstr ""
+msgstr "(hvilket ser ud til at være sagen her)"
 
 #: admin/tools.php:93
 msgid "Secure passwordless API call"
-msgstr ""
+msgstr "Sikker adgangskodeløs API kald"
 
 #: admin/tools.php:96
 msgid ""
@@ -551,11 +572,11 @@ msgstr ""
 #: admin/tools.php:102
 #, php-format
 msgid "Your secret signature token: <strong><code>%s</code></strong>"
-msgstr ""
+msgstr "Din hemmelige signatur nøgle: <strong><code>%s</code></strong>"
 
 #: admin/tools.php:103
 msgid "(It's a secret. Keep it secret) "
-msgstr ""
+msgstr "(det er hemmeligt. Så hold det hemmeligt)"
 
 #: admin/tools.php:106
 msgid ""
@@ -565,7 +586,7 @@ msgstr ""
 
 #: admin/tools.php:109
 msgid "Usage of the signature token"
-msgstr ""
+msgstr "Brugen af signatur nøgle"
 
 #: admin/tools.php:110
 msgid "Simply use parameter <tt>signature</tt> in your API requests. Example:"
@@ -573,11 +594,11 @@ msgstr ""
 
 #: admin/tools.php:114
 msgid "Usage of a time limited signature token"
-msgstr ""
+msgstr "Brug af en tidsbegrænset signatur nøgle"
 
 #: admin/tools.php:117 admin/tools.php:119
 msgid "actual value:"
-msgstr ""
+msgstr "faktisk værdi:"
 
 #: admin/tools.php:122
 msgid ""
@@ -587,12 +608,12 @@ msgstr ""
 
 #: admin/tools.php:124
 msgid "Actual values:"
-msgstr ""
+msgstr "Aktuelle værdier "
 
 #: admin/tools.php:126
 #, php-format
 msgid "This URL would be valid for only %s seconds"
-msgstr ""
+msgstr "Denne URL er kun gyldig i %s sekunder"
 
 #: admin/tools.php:130
 #, php-format
@@ -601,7 +622,7 @@ msgstr ""
 
 #: admin/upgrade.php:9 admin/upgrade.php:13
 msgid "Upgrade YOURLS"
-msgstr ""
+msgstr "Opgrader YOURLS"
 
 #: admin/upgrade.php:18
 #, php-format
@@ -610,7 +631,7 @@ msgstr ""
 
 #: admin/upgrade.php:51
 msgid "Your current installation needs to be upgraded."
-msgstr ""
+msgstr "Din nuværende installation skal opdateres"
 
 #: admin/upgrade.php:52
 msgid ""
@@ -638,7 +659,7 @@ msgstr ""
 
 #: admin/upgrade.php:56
 msgid "Once you are ready, press \"Upgrade\" !"
-msgstr ""
+msgstr "Når du er klar, så tryk på \"Opgrader\" !"
 
 #: admin/upgrade.php:65
 msgid "Upgrade"
@@ -695,17 +716,17 @@ msgstr "Log venligst ind"
 #, php-format
 msgid "1 query"
 msgid_plural "%s queries"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 forespørgsel"
+msgstr[1] "%s forespørgsler "
 
 #: includes/functions-html.php:147
 #, php-format
 msgid "Powered by %s"
-msgstr ""
+msgstr "Drevet af %s"
 
 #: includes/functions-html.php:175
 msgid "Enter the URL"
-msgstr ""
+msgstr "Indtast URL"
 
 #: includes/functions-html.php:176
 msgid "Optional "
@@ -713,7 +734,7 @@ msgstr "Valgfrit"
 
 #: includes/functions-html.php:176
 msgid "Custom short URL"
-msgstr ""
+msgstr "Valgrfri kort URL"
 
 #: includes/functions-html.php:178
 msgid "Shorten The URL"
@@ -728,59 +749,59 @@ msgstr "IP"
 #: includes/functions-html.php:216
 #, php-format
 msgid "Search for %1$s in %2$s"
-msgstr ""
+msgstr "Søg efter %1$s i %2$s"
 
 #: includes/functions-html.php:230
 msgid "Ascending"
-msgstr ""
+msgstr "Stigende"
 
 #: includes/functions-html.php:231
 msgid "Descending"
-msgstr ""
+msgstr "Faldende"
 
 #. //translators: "Order by <criteria dropdown (date, clicks...)> in <order dropdown (Descending or Ascending)>"
 #: includes/functions-html.php:235
 #, php-format
 msgid "Order by %1$s %2$s"
-msgstr ""
+msgstr "Sorter efter %1$s %2$s"
 
 #. //translators: "Show <text field> rows"
 #: includes/functions-html.php:240
 #, php-format
 msgid "Show %s rows"
-msgstr ""
+msgstr "Vis %s rækker"
 
 #: includes/functions-html.php:245
 msgid "more"
-msgstr ""
+msgstr "mere"
 
 #: includes/functions-html.php:246
 msgid "less"
-msgstr ""
+msgstr "mindre"
 
 #. //translators: "Show links with <more/less> than <text field> clicks"
 #: includes/functions-html.php:251
 #, php-format
 msgid "Show links with %1$s than %2$s clicks"
-msgstr ""
+msgstr "Vis links med %1$s end %2$s kliks"
 
 #: includes/functions-html.php:256
 msgid "before"
-msgstr ""
+msgstr "før"
 
 #: includes/functions-html.php:257
 msgid "after"
-msgstr ""
+msgstr "efter"
 
 #: includes/functions-html.php:258
 msgid "between"
-msgstr ""
+msgstr "i mellem"
 
 #. //translators: "Show links created <before/after/between> <date input> <"and" if applicable> <date input if applicable>"
 #: includes/functions-html.php:265
 #, php-format
 msgid "Show links created %1$s %2$s %3$s %4$s"
-msgstr ""
+msgstr "Vis links oprettet %1$s %2$s %3$s %4$s"
 
 #: includes/functions-html.php:269
 msgid "Search"
@@ -811,11 +832,11 @@ msgstr "Sidste &raquo;"
 
 #: includes/functions-html.php:357
 msgid "Your short link"
-msgstr ""
+msgstr "Din korte URL"
 
 #: includes/functions-html.php:388
 msgid "Long link"
-msgstr "Lag link"
+msgstr "Langt link"
 
 #: includes/functions-html.php:390 includes/functions-html.php:499
 #: includes/functions-html.php:500
@@ -935,7 +956,7 @@ msgstr ""
 #: includes/functions-install.php:241
 #, php-format
 msgid "Table '%s' created."
-msgstr ""
+msgstr "Tabel '%s* blev oprettet"
 
 #: includes/functions-install.php:243
 #, php-format
@@ -956,7 +977,7 @@ msgstr ""
 
 #: includes/functions-install.php:259
 msgid "Error creating YOURLS tables."
-msgstr ""
+msgstr "Fejl under oprettelsen af YOURLS tabeller "
 
 #. //translators: weekday
 #: includes/functions-l10n.php:795 includes/functions-l10n.php:805
@@ -1209,46 +1230,48 @@ msgstr "PM"
 #. //translators: $thousands_sep argument for http://php.net/number_format, default is ,
 #: includes/functions-l10n.php:869
 msgid "number_format_thousands_sep"
-msgstr ""
+msgstr "."
 
 #. //translators: $dec_point argument for http://php.net/number_format, default is .
 #: includes/functions-l10n.php:873
 msgid "number_format_decimal_point"
-msgstr ""
+msgstr "."
 
 #. //translators: 'rtl' or 'ltr'. This sets the text direction for YOURLS.
 #: includes/functions-l10n.php:880
 msgid "ltr"
-msgstr ""
+msgstr "ltr"
 
 #: includes/functions-plugins.php:387
 msgid "Could not find and deactivated plugin :"
 msgid_plural "Could not find and deactivated plugins :"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kunne ikke finde og deaktivere følgende udvidelse: "
+msgstr[1] "Kunne ikke finde og deaktivere følgende udvidelser: "
 
 #: includes/functions-plugins.php:425
 msgid "Not a valid plugin file"
-msgstr ""
+msgstr "Ikke en gyldig udvidelses fil "
 
 #: includes/functions-plugins.php:430
 msgid "Plugin already activated"
-msgstr ""
+msgstr "Udvidelsen er allerede aktiveret"
 
 #: includes/functions-plugins.php:438
 #, php-format
 msgid "Plugin generated unexpected output. Error was: <br/><pre>%s</pre>"
 msgstr ""
+"Udvidelsen genererede en uventet udgang. Fejlen var: <br/><pre>%s</pre>"
 
 #: includes/functions-plugins.php:461
 msgid "Plugin not active"
-msgstr ""
+msgstr "Udvidelsen er ikke aktiveret"
 
 #: includes/functions-plugins.php:541
 msgid ""
 "This page does not exist. Maybe a plugin you thought was activated is "
 "inactive?"
 msgstr ""
+"Siden findes ikke. En udvidelse du måske troede var aktiv, er måske inaktiv?"
 
 #: includes/functions-plugins.php:541
 msgid "Invalid link"
@@ -1256,11 +1279,11 @@ msgstr "Ugyldigt link"
 
 #: includes/functions.php:201
 msgid "Missing or malformed URL"
-msgstr ""
+msgstr "`Manglende eller misformuleret URL"
 
 #: includes/functions.php:215
 msgid "URL is a short URL"
-msgstr ""
+msgstr "URL er allerede en kort URL"
 
 #: includes/functions.php:247
 #, php-format
@@ -1307,11 +1330,11 @@ msgstr ""
 #: includes/functions.php:769
 #, php-format
 msgid "Please <a href=\"%s\">click here</a>"
-msgstr ""
+msgstr "<a href=\"%s\">Klik her</a>"
 
 #: includes/functions.php:1394
 msgid "Too many URLs added too fast. Slow down please."
-msgstr ""
+msgstr "For mange URLer tilføjet for hurtigt. Tilføj dem lidt langsommere tak."
 
 #: includes/functions.php:1394
 msgid "Forbidden"
@@ -1319,7 +1342,7 @@ msgstr "Forbudt"
 
 #: includes/functions.php:1673
 msgid "Unauthorized action or expired link"
-msgstr ""
+msgstr "Uautoriseret handling eller udløbet link"
 
 #: includes/functions.php:1673
 msgid "Error"
@@ -1327,17 +1350,18 @@ msgstr "Fejl"
 
 #: includes/functions.php:2064
 msgid "Service temporarily unavailable"
-msgstr ""
+msgstr "Service midlertidigt utilgængeligt"
 
 #: includes/functions.php:2065
 msgid "Our service is currently undergoing scheduled maintenance."
-msgstr ""
+msgstr "Vores service er i øjeblikket under planlagt vedligeholdelse."
 
 #: includes/functions.php:2066
 msgid ""
 "Things should not last very long, thank you for your patience and please "
 "excuse the inconvenience"
 msgstr ""
+"Dette burde ikke vare længe, tak for din tålmodighed og undskyld ulejligheden"
 
 #: includes/functions.php:2186
 #, php-format
