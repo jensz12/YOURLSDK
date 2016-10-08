@@ -623,7 +623,7 @@ msgstr "Valgfrit"
 
 #: includes/functions-html.php:176
 msgid "Custom short URL"
-msgstr "Valgrfri kort URL"
+msgstr "Valgfri kort URL"
 
 #: includes/functions-html.php:178
 msgid "Shorten The URL"
