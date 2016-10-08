@@ -50,7 +50,7 @@ msgstr "Seneste 24 timer"
 
 #: yourls-infos.php:255 yourls-infos.php:296
 msgid "Last 7 days"
-msgstr "Sidste 7 dage"
+msgstr "Seneste 7 dage"
 
 #: yourls-infos.php:256 yourls-infos.php:298
 msgid "Last 30 days"
@@ -284,7 +284,7 @@ msgstr "Udvidelsen blev deaktiveret"
 
 #: admin/plugins.php:58 includes/functions-html.php:745
 msgid "Manage Plugins"
-msgstr "Administrer udvidelser "
+msgstr "Administrer udvidelser"
 
 #: admin/plugins.php:63
 msgid "Plugins"
@@ -512,11 +512,11 @@ msgstr "faktisk værdi:"
 
 #: admin/tools.php:122
 msgid "Now use parameters <tt>signature</tt> and <tt>timestamp</tt> in your API requests. Example:"
-msgstr "Brug nu følgende parametre <tt>signatur</tt> og <tt>tidsstempel</tt> i dine API kald. Eksempelvis: "
+msgstr "Brug nu følgende parametre <tt>signatur</tt> og <tt>tidsstempel</tt> i dine API kald. Eksempelvis:"
 
 #: admin/tools.php:124
 msgid "Actual values:"
-msgstr "Aktuelle værdier "
+msgstr "Aktuelle værdier"
 
 #: admin/tools.php:126
 msgid "This URL would be valid for only %s seconds"
@@ -607,7 +607,7 @@ msgstr "Log venligst ind"
 msgid "1 query"
 msgid_plural "%s queries"
 msgstr[0] "1 forespørgsel"
-msgstr[1] "%s forespørgsler "
+msgstr[1] "%s forespørgsler"
 
 #: includes/functions-html.php:147
 msgid "Powered by %s"
@@ -752,7 +752,7 @@ msgstr "Gem nye værdier"
 
 #: includes/functions-html.php:464
 msgid "Cancel"
-msgstr "Annuller "
+msgstr "Annuller"
 
 #: includes/functions-html.php:464
 msgid "Cancel editing"
@@ -828,7 +828,7 @@ msgstr "Luk"
 
 #: includes/functions-html.php:889
 msgid "<a href=\"%s\">YOURLS version %s</a> is available. Please update!"
-msgstr "<a href=\"%s\">YOURLS version %s</a> er tilgængelig. Opdater venligst!  "
+msgstr "<a href=\"%s\">YOURLS version %s</a> er tilgængelig. Opdater venligst!"
 
 #: includes/functions-install.php:16 includes/functions.php:438
 msgid "Incorrect DB config, or could not connect to DB"
@@ -848,7 +848,7 @@ msgstr "Kunne ikke initialisere indstillinger"
 
 #: includes/functions-install.php:253
 msgid "Could not insert sample short URLs"
-msgstr "Kunne ikke indsætte prøve URLer"
+msgstr "Kunne ikke indsætte test URLer"
 
 #: includes/functions-install.php:257
 msgid "YOURLS tables successfully created."
@@ -856,7 +856,7 @@ msgstr "YOURLS tabellerne blev oprettet"
 
 #: includes/functions-install.php:259
 msgid "Error creating YOURLS tables."
-msgstr "Fejl under oprettelsen af YOURLS tabeller "
+msgstr "Fejl under oprettelsen af YOURLS tabeller"
 
 #. //translators: weekday
 #: includes/functions-l10n.php:795 includes/functions-l10n.php:805
@@ -1124,12 +1124,12 @@ msgstr "ltr"
 #: includes/functions-plugins.php:387
 msgid "Could not find and deactivated plugin :"
 msgid_plural "Could not find and deactivated plugins :"
-msgstr[0] "Kunne ikke finde og deaktivere følgende udvidelse: "
-msgstr[1] "Kunne ikke finde og deaktivere følgende udvidelser: "
+msgstr[0] "Kunne ikke finde og deaktivere følgende udvidelse:"
+msgstr[1] "Kunne ikke finde og deaktivere følgende udvidelser:"
 
 #: includes/functions-plugins.php:425
 msgid "Not a valid plugin file"
-msgstr "Ikke en gyldig udvidelses fil "
+msgstr "Ikke en gyldig udvidelses fil"
 
 #: includes/functions-plugins.php:430
 msgid "Plugin already activated"
