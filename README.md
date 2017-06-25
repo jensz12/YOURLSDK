@@ -13,7 +13,7 @@ To create translation files:
 
 To check your translation file and load it in YOURLS:
 
-1. Download a nightly build or update via SVN. [Read this](http://code.google.com/p/yourls/wiki/InstallFromSVN)
+1. Download latest version, of current master, or update with Git. [Read this](https://github.com/YOURLS/YOURLS/wiki/Install-From-Git)
 2. Drop your `pt_BR.po` and `pt_BR.mo` files in `user/languages`
 3. Add `define( 'YOURLS_LANG', 'pt_BR' )` to your `config.php`
 4. That’s it! Play with YOURLS to check everything is fine
@@ -33,7 +33,7 @@ When the `YOURLS.pot` template file is updated with new or modified strings to t
 When your translation file is all fine, make sure others can benefit from you hard work!
 
 1. Upload your two `PO` and `MO` files somewhere on the interweb.  
-It's best to use a *source control service*, such as Google Code or Github: this will make your changes easy to track, your files easy to maintain, and others' contributions easy to implement. If you don’t want to use SVN or Git, a regular hosting (your blog) will be OK  
+It's best to use a *source control service*, such as Github or GitLab: this will make your changes easy to track, your files easy to maintain, and others' contributions easy to implement. If you don’t want to use SVN or Git, a regular hosting (your blog) will be OK  
 2. Make it clear for users: a directory with clearly labelled files (`yourls-1.6-pt_BR.zip` for instance) so they know what to pick.  
 3. Ping us! Open a [new issue](https://github.com/YOURLS/YOURLS.pot/issues) here and tell us where your translation lives so we can add it to the [list of available languages](http://yourls.org/translations)   
 
